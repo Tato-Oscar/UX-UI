@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul:wght@400;700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&display=swap');
+
+html{
+    line-height: 1.2;
+        font-weight: 700;
+        font-size: 18px;
+}
+body {
+    font-family: 'Oswald', monospace;
+    background-color: black;
+}
+h1 {
+    font-family: 'Asul', sans-serif;
+    font-size: 40px;
+    color: #c8c8c8;
+    margin-bottom: 20px;
+}
+
+.profile-section{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+
+p {
+    font-size: 25px;
+    max-width: 1500px;
+    font-family: 'Montserrat', sans-serif;
+    color:rgb(241, 241, 241);
+    line-height: 1.6;
+}
+.back-home {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 10;
+}
+
+.back-home a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #878787;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Slab', serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+
+.back-home a:hover {
+    transform: translateY(-3px);
+    background-color: #545454;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
+img {
+    border-radius: 60%;
+    margin-left: 30px;
+    vertical-align: middle;
+    border: 4px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow:0 0 20px #c8c8c8;
+}
